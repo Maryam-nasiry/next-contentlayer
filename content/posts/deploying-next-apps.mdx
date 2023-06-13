@@ -4,192 +4,31 @@ description: Do you feel stuck, unhappy, or unfulfilled in your life? In this bl
 date: "2023-01-02"
 ---
 
-Until now, trying to style an article, document, or blog post with Tailwind has been a tedious task that required a keen eye for typography and a lot of complex custom CSS.
+<Image src="/blog-post-5.jpg" width="718" height="404" alt="Image" />
 
-By default, Tailwind removes all of the default browser styling from paragraphs, headings, lists and more. This ends up being really useful for building application UIs because you spend less time undoing user-agent styles, but when you _really are_ just trying to style some content that came from a rich-text editor in a CMS or a markdown file, it can be surprising and unintuitive.
+Finding your passion and purpose in life is one of the most rewarding and fulfilling things you can do. But how do you go about it? How do you discover what makes you happy, what gives you meaning, and what you are good at? In this blog post, I will share with you some tips and strategies that can help you find your passion and purpose in life, based on the latest research and expert advice.
 
-We get lots of complaints about it actually, with people regularly asking us things like:
+First, let me clarify what I mean by passion and purpose. Passion is a strong interest or enthusiasm for something that you enjoy doing or learning about. It could be a hobby, a skill, a topic, a cause, or anything else that sparks your curiosity and excitement. Purpose is a sense of direction or mission that guides your actions and decisions. It is a reason why you do what you do, beyond just making money or pleasing others. It is a way of contributing to the greater good in a way that matters to you.
 
-> Why is Tailwind removing the default styles on my `h1` elements? How do I disable this? What do you mean I lose all the other base styles too?
-> We hear you, but we're not convinced that simply disabling our base styles is what you really want. You don't want to have to remove annoying margins every time you use a `p` element in a piece of your dashboard UI. And I doubt you really want your blog posts to use the user-agent styles either — you want them to look _awesome_, not awful.
+Passion and purpose are not necessarily the same thing, but they are often related. When you find something that you are passionate about, it can also give you a sense of purpose, because you feel that you are using your talents and strengths to make a positive difference in the world. Conversely, when you find something that gives you a sense of purpose, it can also ignite your passion, because you feel motivated and inspired to pursue it.
 
-The `@tailwindcss/typography` plugin is our attempt to give you what you _actually_ want, without any of the downsides of doing something stupid like disabling our base styles.
+So, how do you find your passion and purpose in life? Here are some steps that can help you:
 
-It adds a new `prose` class that you can slap on any block of vanilla HTML content and turn it into a beautiful, well-formatted document:
+1. Identify the things you care about. Passion and purpose are all about applying your skills toward contributing to the greater good in a way that matters to you. So, identifying what you care about is an important first step. Think about the issues or causes that move you, the values that guide you, the people that inspire you, and the goals that motivate you. Write them down and reflect on why they matter to you.
+2. Explore your interests and talents. Passion and purpose are also about finding something that matches your abilities and preferences. So, exploring your interests and talents is another key step. Think about the activities or topics that you enjoy doing or learning about, the skills or talents that you have or want to develop, the hobbies or passions that you have or want to try, and the challenges or problems that you want to solve or overcome. Write them down and reflect on how they make you feel.
+3. Try new things and experiment. Passion and purpose are not always obvious or easy to find. Sometimes, they require some trial and error and some exploration and experimentation. So, trying new things and experimenting is another essential step. Look for opportunities to learn new skills, join new groups, volunteer for new causes, take new courses, travel to new places, or start new projects. Be open-minded and curious about what the world has to offer.
+4. Seek feedback and guidance. Passion and purpose are not always something that you can find on your own. Sometimes, they require some feedback and guidance from others who know you well or who have more experience or expertise than you. So, seeking feedback and guidance is another helpful step. Ask your friends, family, mentors, teachers, coaches, or colleagues for their opinions or suggestions on what they think you are good at, what they think you enjoy doing, what they think you care about, or what they think you should pursue.
+5. Reflect on your experiences and feelings. Passion and purpose are not always something that you can find once and for all. Sometimes, they change over time as you grow and evolve as a person. So, reflecting on your experiences and feelings is another important step. Review your notes from the previous steps and ask yourself questions like: What did I learn? What did I enjoy? What did I dislike? What did I excel at? What did I struggle with? What did I find meaningful? What did I find boring? How did I feel?
+6. Choose a direction and take action. Passion and purpose are not just something that you find in your head or in your heart. They are also something that you create in your life through your actions and decisions. So, choosing a direction and taking action is the final step. Based on your reflections from the previous steps, decide on one or more areas of passion and purpose that resonate with you the most. Then, set some specific goals and action plans to pursue them further.
 
-```html
-<article class="prose">
-  <h1>Garlic bread with cheese: What the science tells us</h1>
-  <p>
-    For years parents have espoused the health benefits of eating garlic bread
-    with cheese to their children, with the food earning such an iconic status
-    in our culture that kids will often dress up as warm, cheesy loaf for
-    Halloween.
-  </p>
-  <p>
-    But a recent study shows that the celebrated appetizer may be linked to a
-    series of rabies cases springing up around the country.
-  </p>
-</article>
-```
+Finding your passion and purpose in life is not a one-time event or a quick fix. It is a lifelong journey of discovery and creation that requires patience, persistence, courage, and curiosity. But it is also a journey that can bring you immense joy, satisfaction, fulfillment, and happiness.
 
-For more information about how to use the plugin and the features it includes, [read the documentation](https://github.com/tailwindcss/typography/blob/master/README.md).
+I hope this blog post has given you some insights and inspiration on how to find your passion and purpose in life. If you have any questions or comments, please feel free to share them below.
 
----
+Thank you for reading! 
 
-## What to expect from here on out
-
-What follows from here is just a bunch of absolute nonsense I've written to dogfood the plugin itself. It includes every sensible typographic element I could think of, like **bold text**, unordered lists, ordered lists, code blocks, block quotes, _and even italics_.
-
-It's important to cover all of these use cases for a few reasons:
-
-1.  We want everything to look good out of the box.
-2.  Really just the first reason, that's the whole point of the plugin.
-3.  Here's a third pretend reason though a list with three items looks more realistic than a list with two items.
-
-Now we're going to try out another header style.
-
-### Typography should be easy
-
-So that's a header for you — with any luck if we've done our job correctly that will look pretty reasonable.
-
-Something a wise person once told me about typography is:
-
-> Typography is pretty important if you don't want your stuff to look like trash. Make it good then it won't be bad.
-
-It's probably important that images look okay here by default as well:
-
-<Image src="/blog-post-4.jpg" width="718" height="404" alt="Image" />
-
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
-
-Now I'm going to show you an example of an unordered list to make sure that looks good, too:
-
-- So here is the first item in this list.
-- In this example we're keeping the items short.
-- Later, we'll use longer, more complex list items.
-
-And that's the end of this section.
-
-## What if we stack headings?
-
-### We should make sure that looks good, too.
-
-Sometimes you have headings directly underneath each other. In those cases you often have to undo the top margin on the second heading because it usually looks better for the headings to be closer together than a paragraph followed by a heading should be.
-
-### When a heading comes after a paragraph …
-
-When a heading comes after a paragraph, we need a bit more space, like I already mentioned above. Now let's see what a more complex list would look like.
-
-- **I often do this thing where list items have headings.**
-
-  For some reason I think this looks cool which is unfortunate because it's pretty annoying to get the styles right.
-
-  I often have two or three paragraphs in these list items, too, so the hard part is getting the spacing between the paragraphs, list item heading, and separate list items to all make sense. Pretty tough honestly, you could make a strong argument that you just shouldn't write this way.
-
-- **Since this is a list, I need at least two items.**
-
-  I explained what I'm doing already in the previous list item, but a list wouldn't be a list if it only had one item, and we really want this to look realistic. That's why I've added this second list item so I actually have something to look at when writing the styles.
-
-- **It's not a bad idea to add a third item either.**
-
-  I think it probably would've been fine to just use two items but three is definitely not worse, and since I seem to be having no trouble making up arbitrary things to type, I might as well include it.
-
-After this sort of list I usually have a closing statement or paragraph, because it kinda looks weird jumping right to a heading.
-
-## Code should look okay by default.
-
-I think most people are going to use [highlight.js](https://highlightjs.org/) or [Prism](https://prismjs.com/) or something if they want to style their code blocks but it wouldn't hurt to make them look _okay_ out of the box, even with no syntax highlighting.
-
-Here's what a default `tailwind.config.js` file looks like at the time of writing:
-
-```js
-module.exports = {
-  purge: [],
-  theme: {
-    extend: {},
-  },
-  variants: {},
-  plugins: [],
-}
-```
-
-Hopefully that looks good enough to you.
-
-### What about nested lists?
-
-Nested lists basically always look bad which is why editors like Medium don't even let you do it, but I guess since some of you goofballs are going to do it we have to carry the burden of at least making it work.
-
-1.  **Nested lists are rarely a good idea.**
-    - You might feel like you are being really "organized" or something but you are just creating a gross shape on the screen that is hard to read.
-    - Nested navigation in UIs is a bad idea too, keep things as flat as possible.
-    - Nesting tons of folders in your source code is also not helpful.
-2.  **Since we need to have more items, here's another one.**
-    - I'm not sure if we'll bother styling more than two levels deep.
-    - Two is already too much, three is guaranteed to be a bad idea.
-    - If you nest four levels deep you belong in prison.
-3.  **Two items isn't really a list, three is good though.**
-    - Again please don't nest lists if you want people to actually read your content.
-    - Nobody wants to look at this.
-    - I'm upset that we even have to bother styling this.
-
-The most annoying thing about lists in Markdown is that `<li>` elements aren't given a child `<p>` tag unless there are multiple paragraphs in the list item. That means I have to worry about styling that annoying situation too.
-
-- **For example, here's another nested list.**
-
-  But this time with a second paragraph.
-
-  - These list items won't have `<p>` tags
-  - Because they are only one line each
-
-- **But in this second top-level list item, they will.**
-
-  This is especially annoying because of the spacing on this paragraph.
-
-  - As you can see here, because I've added a second line, this list item now has a `<p>` tag.
-
-    This is the second line I'm talking about by the way.
-
-  - Finally here's another list item so it's more like a list.
-
-- A closing list item, but with no nested list, because why not?
-
-And finally a sentence to close off this section.
-
-## There are other elements we need to style
-
-I almost forgot to mention links, like [this link to the Tailwind CSS website](https://tailwindcss.com). We almost made them blue but that's so yesterday, so we went with dark gray, feels edgier.
-
-We even included table styles, check it out:
-
-| Wrestler                | Origin       | Finisher           |
-| ----------------------- | ------------ | ------------------ |
-| Bret "The Hitman" Hart  | Calgary, AB  | Sharpshooter       |
-| Stone Cold Steve Austin | Austin, TX   | Stone Cold Stunner |
-| Randy Savage            | Sarasota, FL | Elbow Drop         |
-| Vader                   | Boulder, CO  | Vader Bomb         |
-| Razor Ramon             | Chuluota, FL | Razor's Edge       |
-
-We also need to make sure inline code looks good, like if I wanted to talk about `<span>` elements or tell you the good news about `@tailwindcss/typography`.
-
-### Sometimes I even use `code` in headings
-
-Even though it's probably a bad idea, and historically I've had a hard time making it look good. This _"wrap the code blocks in backticks"_ trick works pretty well though really.
-
-Another thing I've done in the past is put a `code` tag inside of a link, like if I wanted to tell you about the [`tailwindcss/docs`](https://github.com/tailwindcss/docs) repository. I don't love that there is an underline below the backticks but it is absolutely not worth the madness it would require to avoid it.
-
-#### We haven't used an `h4` yet
-
-But now we have. Please don't use `h5` or `h6` in your content, Medium only supports two heading levels for a reason, you animals. I honestly considered using a `before` pseudo-element to scream at you if you use an `h5` or `h6`.
-
-We don't style them at all out of the box because `h4` elements are already so small that they are the same size as the body copy. What are we supposed to do with an `h5`, make it _smaller_ than the body copy? No thanks.
-
-### We still need to think about stacked headings though.
-
-#### Let's make sure we don't screw that up with `h4` elements, either.
-
-Phew, with any luck we have styled the headings above this text and they look pretty good.
-
-Let's add a closing paragraph here so things end with a decently sized block of text. I can't explain why I want things to end that way but I have to assume it's because I think things will look weird or unbalanced if there is a heading too close to the end of the document.
-
-What I've written here is probably long enough, but adding this final sentence can't hurt.
+Source: Conversation with Bing, 6/14/2023
+(1) Seven Ways to Find Your Purpose in Life - Greater Good. https://greatergood.berkeley.edu/article/item/seven_ways_to_find_your_purpose_in_life.
+(2) 6 Ways to Find Fresh Passion and Purpose | Psychology Today. https://www.psychologytoday.com/us/blog/prescriptions-life/202106/6-ways-find-fresh-passion-and-purpose.
+(3) How to find your passion in life: Tony’s secret - Tony Robbins. https://www.tonyrobbins.com/personal-growth/how-to-find-passion/.
+(4) 13 Ways to Find Your Passion - wikiHow. https://www.wikihow.com/Find-Your-Passion.
