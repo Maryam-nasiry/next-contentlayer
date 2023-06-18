@@ -4,6 +4,8 @@ import { Inter } from "next/font/google"
 import { ThemeProvider } from "@/components/theme-provider"
 import { Analytics } from "@/components/analytics"
 import { ModeToggle } from "@/components/mode-toggle"
+import Linkedin  from "@/components/linktest"
+import MyImage from "@/components/image"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -19,6 +21,7 @@ interface RootLayoutProps {
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="en">
+ 
       <body
         className={`antialiased min-h-screen bg-white dark:bg-slate-950 text-slate-900 dark:text-slate-50 ${inter.className}`}
       >
@@ -30,6 +33,8 @@ export default function RootLayout({ children }: RootLayoutProps) {
                 <nav className="ml-auto text-sm font-medium space-x-6">
                   <Link href="/">Home</Link>
                   <Link href="/about">About</Link>
+                  <Link href="https://www.linkedin.com/in/mrym-nasiri/">contact us</Link>
+                  <Linkedin />
                 </nav>
               </div>
             </header>
@@ -37,6 +42,10 @@ export default function RootLayout({ children }: RootLayoutProps) {
           </div>
           <Analytics />
         </ThemeProvider>
+        <a href="https://www.linkedin.com/in/mrym-nasiri/">
+        <MyImage />
+  <button>linkedin</button>
+</a>
       </body>
     </html>
   )
