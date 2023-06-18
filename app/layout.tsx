@@ -42,10 +42,9 @@ export default function RootLayout({ children }: RootLayoutProps) {
           </div>
           <Analytics />
         </ThemeProvider>
-        <a href="https://www.linkedin.com/in/mrym-nasiri/">
+        <Link href="https://www.linkedin.com/in/mrym-nasiri/">
         <MyImage />
-  <button>linkedin</button>
-</a>
+</Link>
       </body>
     </html>
   )
